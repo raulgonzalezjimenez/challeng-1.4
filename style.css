@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 1px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid;
+  color: rgb(226, 213, 213);
+  padding-inline: 5px;
+}
+.s1 {
+  display: flex;
+  justify-content: end;
+  padding: 15px;
+}
+.s2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.h2 {
+  margin-block-start: 0.5rem;
+  display: flex;
+  justify-content: center;
+  color: orangered;
+  font-weight: bold;
+  font-family: 'Nunito';
+  font-size: 12px;
+  margin-block-end: 0;
+}
+.p1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito';
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0;
+
+  p {
+    color: white;
+    padding: 15px;
+    background-color: #ed6436;
+    border-radius: 0px 30px 30px 30px;
+    margin: 0;
+  }
+}
+.s4 {
+  margin-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 20;
+  gap: 50px;
+}
+img {
+  border-radius: 20px;
+}
+img:hover {
+  opacity: 0.8;
+}
